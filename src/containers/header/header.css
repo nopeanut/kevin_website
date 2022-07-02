@@ -1,0 +1,40 @@
+.the_main{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+    
+}
+
+.the_main_bio {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--color-text);
+    
+}
+.the_main_title {
+    font-size: 18px;
+    padding-top: 4rem;
+    color: var(--color-title);
+}
+.the_main_p_1 {
+    font-size: 15px;
+    padding-top: 2rem;
+    order: 2;
+}
+.the_main_p_2 {
+    font-size: 15px;
+    padding-top: 2rem;
+    order: 1;
+    margin-right: 15rem;
+}
+
+.the_main_photo {
+    margin-right: 8rem;
+    margin-top: 2rem;
+    border: 5px solid aquamarine;
+    display: inline-flex;
+}

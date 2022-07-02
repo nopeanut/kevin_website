@@ -1,0 +1,24 @@
+.the_footer_main {
+    display: flex;
+    flex-direction: row;
+}
+.the_footer_main p {
+    color: var(--color-text);
+    align-items: baseline;
+    padding-left: 80%;
+}
+
+.the_footer_icons {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 30px;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.the_footer_icons:link, .the_footer_icons:visited {
+    color: white;
+    text-decoration: none;
+}

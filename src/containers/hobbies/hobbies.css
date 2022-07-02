@@ -1,0 +1,45 @@
+.the_main_hobbies {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.the_main_hobbies_stuff {
+    display: flex;
+    flex-direction: row;
+}
+.the_main_hobbies_title {
+    color: aqua;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+.the_main_hobbies_p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    max-width: 50%;
+    font-size: 18px;
+    padding-left: 1rem;
+}
+
+.the_main_hobbies_p1 {
+    padding-bottom: 2rem;
+}
+
+.the_main_hobbies_p2 {
+    padding-bottom: 2rem;
+}
+
+.the_main_hobbies_p3 {
+    padding-bottom: 2rem;
+}
+
+.the_main_hobbies_p4 {
+    padding-bottom: 2rem;
+}
+
+.the_main_hobbies_korean {
+    margin-left: 23rem;
+    border: 5px solid aquamarine;
+    display: inline-flex;
+}

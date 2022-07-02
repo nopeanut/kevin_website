@@ -1,0 +1,44 @@
+.the_main_education {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.the_main_education_title {
+    color:var(--color-title);
+    padding-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.the_main_education_p {
+    font-size: 18px;
+    max-width: 50%;
+    padding-bottom: 2rem
+    
+}
+
+.firstP{
+    padding-bottom: 2rem;
+}
+
+.secondP {
+    padding-bottom: 2rem;
+}
+
+.thirdP {
+    padding-bottom: 2rem;
+}
+
+.fourthP {
+    padding-bottom: 5rem;
+}
+
+.firstPa:link, .firstPa:visited, .turing:link, .turing:visited, .python:link, .python:visited, .java:link, .java:visited {
+    color: var(--color-title);
+    text-decoration: none;
+}
+
+.firstPa:hover, .turing:hover, .python:hover, .java:hover {
+    color: red;
+}

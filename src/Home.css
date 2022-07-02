@@ -1,0 +1,7 @@
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0.10rem;
+}
