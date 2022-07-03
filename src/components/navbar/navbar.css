@@ -33,6 +33,7 @@
     cursor: pointer;
     background-color: var(--color-text);
     justify-content: flex-end;
+    border-radius: 1rem;
 }
 
 .the__navbar_links-name{

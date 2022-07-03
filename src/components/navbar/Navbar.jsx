@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './navbar.css';
+import resume from '../../assets/Resume.pdf';
+
 
 const Menu = () => (
     <>
@@ -23,7 +25,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='the__navbar-links-resume'>
-                <button type='button'>Resume</button>
+                <a href= {resume} target = "_black"><button type='button'>Resume</button></a>
             </div>
         </div>
     </div>
