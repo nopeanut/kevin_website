@@ -1,0 +1,11 @@
+.the_projects_main {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+}
+
+.the_projects_project {
+    display: flex;
+    flex-direction: row;
+}
