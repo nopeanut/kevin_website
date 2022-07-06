@@ -1,7 +1,5 @@
 import React from 'react';
 import './navbar.css';
-import resume from '../../assets/Resume.pdf';
-
 
 const Menu = () => (
     <>
@@ -25,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='the__navbar-links-resume'>
-                <a href= {resume} target = "_black"><button type='button'>Resume</button></a>
+                <a href= 'https://drive.google.com/file/d/1NXx5d7Sv_pfEP90Z4GFDzvJKsBprN2Y7/view?usp=sharing' target = "_black"><button type='button'>Resume</button></a>
             </div>
         </div>
     </div>
