@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar} from './components';
-import {Header, About, Hobbies, Footer} from './containers';
+import {Header, Footer} from './containers';
 import './Home.css';
 
 function Home() {
@@ -8,8 +8,6 @@ function Home() {
     <div>
         <Navbar/>
         <Header/>
-        <About/>
-        <Hobbies/>
         <Footer/>
     </div>
   )

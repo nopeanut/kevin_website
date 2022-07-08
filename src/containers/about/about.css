@@ -8,6 +8,7 @@
 .the_main_education_title {
     color:var(--color-title);
     padding-bottom: 1rem;
+    padding-top: 1rem;
     text-decoration: underline;
 }
 
