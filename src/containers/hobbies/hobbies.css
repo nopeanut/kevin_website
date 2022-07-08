@@ -1,5 +1,5 @@
 .the_main_hobbies {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 }
 
@@ -39,8 +39,13 @@
     padding-bottom: 2rem;
 }
 
+.the_main_hobbies_p5 {
+    padding-bottom: 4rem;
+}
+
 .the_main_hobbies_korean {
-    margin-left: 23rem;
+    margin-left: 14rem;
+    margin-bottom: 12rem;
     border: 5px solid aquamarine;
-    display: inline-flex;
+    display: flex;
 }

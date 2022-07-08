@@ -3,9 +3,9 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
-
-
 
 .the_form_stuff, .the_form_input{
     display: flex;
