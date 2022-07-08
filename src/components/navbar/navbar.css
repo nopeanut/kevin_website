@@ -3,22 +3,26 @@
     /*position: sticky;
     top: 0;*/
     background: var(--color-footer);
+    max-width:auto;
 }
 
 .the__navbar-links {
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: auto;
 
 }
 .the__navbar-links-stuff {
     display: flex;
     flex-direction: column;
+    max-width: auto;
     flex-grow: 3;
 }
 
 .the__navbar_links-logo {
     padding-left: 59%;
+    max-width: auto;
 }
 
 .the__navbar-links-resume button{
@@ -38,8 +42,8 @@
 
 .the__navbar_links-name{
     flex: 1;
-    flex-grow:1;
     font-size: 50px;
+    flex-grow: 1;
     font-family: var(--font-family);
 }
 
@@ -88,4 +92,15 @@
 
 .stuff:hover {
     color: red;
+}
+
+@media screen and (max-width: 560px) {
+    .the__navbar {
+        background: var(--color-footer);
+        max-width:none;
+    }
+
+    .the__navbar-links-resume {
+        margin-left: 1rem;
+    }
 }
