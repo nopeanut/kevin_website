@@ -1,11 +1,12 @@
 .the_footer_main {
     display: flex;
     flex-direction: row;
+    max-width: auto;
+    justify-content: space-between;
 }
 .the_footer_main p {
     color: var(--color-text);
     align-items: baseline;
-    padding-left: 80%;
 }
 
 .the_footer_icons {

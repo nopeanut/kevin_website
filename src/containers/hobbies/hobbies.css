@@ -45,7 +45,20 @@
 
 .the_main_hobbies_korean {
     margin-left: 14rem;
-    margin-bottom: 12rem;
+    margin-bottom: auto;
     border: 5px solid aquamarine;
     display: flex;
+}
+
+@media screen and (max-width: 1440px) {
+    .the_main_hobbies_korean {
+        margin-left: 14rem;
+        margin-bottom: auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .the_main_hobbies_korean {
+        margin-left: 14rem;
+        margin-bottom: auto;
+    }
 }
