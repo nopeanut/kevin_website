@@ -50,15 +50,69 @@
     display: flex;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 320px) {
+    .the_main_hobbies_stuff {
+        flex-direction: column;
+    }
+    .the_main_hobbies_p {
+        max-width: 100%;
+        font-size: 14px;
+        padding-left: 1rem;
+    }
     .the_main_hobbies_korean {
-        margin-left: 14rem;
+        margin-left: 0rem;
         margin-bottom: auto;
+
+    }
+    .the_main_hobbies_korean img {
+        max-width: 280px;
+        border: 5px solid aquamarine;
+    }
+    .the_main_hobbies {
+        padding-top: 1rem;
+
     }
 }
-@media screen and (max-width: 1024px) {
-    .the_main_hobbies_korean {
-        margin-left: 14rem;
-        margin-bottom: auto;
+@media screen and (max-width: 430px) {
+
+    .the_main_hobbies_p {
+        font-size: 15px;
     }
+    .the_main_hobbies_korean {
+        padding-right: 5rem;
+    }
+    .the_main_hobbies_stuff{
+        margin: 0 auto;
+    }
+    .the_main_hobbies_korean {
+        border: none;
+    }
+    .the_main_hobbies_korean img {
+        max-width: 310px;
+    }
+    .the_main_hobbies {
+        padding-top: 1rem;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .the_main_hobbies_stuff {
+        flex-direction: column;
+    }
+    .the_main_hobbies_p {
+        max-width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .the_main_hobbies_p {
+        font-size: 20px;
+        min-width: 45%;
+    }
+    .the_main_hobbies_korean {
+        margin-left: 4rem;
+        margin-right: 15.2rem;
+    }
+    
 }

@@ -17,7 +17,7 @@ const Header = () => {
           </div>
         </div>
         <div className='the_main_photo'>
-            <img src={profile} style= {{height: 550, width: 450}} alt="me"/>
+            <img src={profile} alt="me"/>
         </div>
     </div>
   )

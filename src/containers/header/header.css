@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 4rem;
-    
 }
 
 .the_main_bio {
@@ -37,4 +36,135 @@
     margin-top: 2rem;
     border: 5px solid aquamarine;
     display: inline-flex;
+}
+.the_main_photo img{
+    max-width: 550px;
+    max-height: auto;
+}
+@media screen and (max-width: 325px) {
+    .the_main{
+        flex-direction: column;
+    }
+    .the_main_title {
+        font-size: 15px;
+    }
+    .the_main_bio {
+        max-width: 320px;
+    }
+    .the_main_p_1 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 2;
+    }
+    .the_main_p_2 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 1;
+        margin-right: 0rem;
+    }
+    .the_main_photo {
+        border: none;
+        margin-top: 2rem;
+        
+    }
+    .the_main_photo img{
+        max-width: 150px;
+        margin-left:-13rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .the_main_title {
+        font-size: 15px;
+    }
+    .the_main_bio {
+        max-width: 320px;
+    }
+    .the_main_p_1 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 2;
+    }
+    .the_main_p_2 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 1;
+        margin-right: 0rem;
+    }
+    .the_main_photo {
+        margin-left: 200px;
+
+    }
+    .the_main_photo img{
+        max-width: 300px;
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .the_main{
+        flex-direction: column;
+    }
+
+    .the_main_title {
+        font-size: 16px;
+    }
+    .the_main_bio {
+        max-width: 768px;
+    }
+    .the_main_p_1 {
+        font-size: 15px;
+        padding-top: 2rem;
+        order: 2;
+    }
+    .the_main_p_2 {
+        font-size: 15px;
+        padding-top: 2rem;
+        order: 1;
+        margin-right: 0rem;
+    }
+    .the_main_photo {
+        border: 5px solid aquamarine;
+        margin-left: none;
+        margin-right: 13rem;
+        margin-top: 2rem;
+    }
+    .the_main_photo img{
+        max-width: 350px;
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .the_main{
+        flex-direction: column;
+    }
+    .the_main_title {
+        font-size: 16px;
+    }
+    .the_main_bio {
+        max-width: 426px;
+    }
+    .the_main_p_1 {
+        font-size: 15px;
+        padding-top: 2rem;
+        order: 2;
+    }
+    .the_main_p_2 {
+        font-size: 15px;
+        padding-top: 2rem;
+        order: 1;
+        margin-right: 0rem;
+    }
+    .the_main_photo {
+        border: 5px solid aquamarine;
+        margin-left: none;
+        margin-right: 0rem;
+        margin-top: 2rem;
+        align-self: center;
+    }
+    .the_main_photo img{
+        max-width: 200px;
+        max-height: auto;
+    }
 }
