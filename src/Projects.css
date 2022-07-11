@@ -10,3 +10,16 @@
     flex-direction: row;
     padding-left: 1rem;
 }
+@media screen and (max-width: 430px) {
+    .the_projects_project {
+        flex-direction: column;
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .the_projects_project {
+        flex-direction: column;
+        padding-left: 0.5rem;
+    }
+}

@@ -22,3 +22,31 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .the_skills_list img{
+        max-width: 150px;
+        max-height: 200px;
+    }
+    .the_skills_list h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .the_skills_list img{
+        max-width: 100px;
+        max-height: 160px;
+    }
+    .the_skills_list h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .the_skills_list img{
+        max-width: 75px;
+        max-height: 150px;
+    }
+    .the_skills_list h1{
+        font-size: 14px;
+    }
+}
