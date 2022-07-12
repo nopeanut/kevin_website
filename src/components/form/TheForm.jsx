@@ -1,12 +1,13 @@
 import React from 'react'
 import './theForm.css';
+import Form from 'react-bootstrap/Form';
 
 const TheForm = () => {
   return (
     <div className='the_form_main'>
         <h1>Get in touch</h1>
         <div class="the_form_input">
-            <form method="POST" data-netlify="true">
+            <Form method="POST" data-netlify="true">
                 <div className='the_form_stuff'>
                     <div className='the_form_input_name'>
                         <label for="name">Name</label>
@@ -24,7 +25,7 @@ const TheForm = () => {
                         <input type="submit" value="Submit" />
                     </div>
                 </div>
-            </form>
+            </Form>
         </div>
     </div>
   )
