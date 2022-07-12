@@ -3,10 +3,10 @@ import './navbar.css';
 
 const Menu = () => (
     <>
-    <p><a className='stuff' href="https://master--whimsical-madeleine-86d695.netlify.app/">Home</a></p>
-    <p><a className='stuff' href="https://master--whimsical-madeleine-86d695.netlify.app/about">About me</a></p>
-    <p><a className='stuff' href="https://master--whimsical-madeleine-86d695.netlify.app/projects">Projects</a></p>
-    <p><a className='stuff' href="https://master--whimsical-madeleine-86d695.netlify.app/contact">Contact</a></p>
+    <p><a className='stuff' href="./">Home</a></p>
+    <p><a className='stuff' href="./about">About me</a></p>
+    <p><a className='stuff' href="./projects">Projects</a></p>
+    <p><a className='stuff' href="./contact">Contact</a></p>
     </>
 )
 
