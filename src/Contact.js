@@ -1,12 +1,12 @@
 import React from 'react'
-import {Navbar, TheForm} from './components';
+import {Navbar, TheForm, NewForm} from './components';
 import {Footer} from './containers';
 
 const Contact = () => {
   return (
     <div>
       <Navbar/>
-      <TheForm />
+      <NewForm />
       <Footer />
     </div>
   )
