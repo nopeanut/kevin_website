@@ -3,10 +3,10 @@ import './navbar.css';
 
 const Menu = () => (
     <>
-    <p><a className='stuff' href="http://localhost:3000/">Home</a></p>
-    <p><a className='stuff' href="http://localhost:3000/about">About me</a></p>
-    <p><a className='stuff' href="http://localhost:3000/projects">Projects</a></p>
-    <p><a className='stuff' href="http://localhost:3000/contact">Contact</a></p>
+    <p><a className='stuff' href="/">Home</a></p>
+    <p><a className='stuff' href="/about">About me</a></p>
+    <p><a className='stuff' href="/projects">Projects</a></p>
+    <p><a className='stuff' href="/contact">Contact</a></p>
     </>
 )
 
