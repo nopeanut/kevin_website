@@ -11,18 +11,18 @@ const TheForm = () => {
                 <div className='the_form_stuff'>
                     <div className='the_form_input_name'>
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder=""/>
+                        <input type="text" name="name" placeholder=""/>
                     </div>
                     <div className='the_form_input_email'>
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="" />
+                        <input type="text" name="email" placeholder="" />
                     </div>
                     <div className='the_form_input_message'>
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder=""/>
+                        <textarea name="message" placeholder=""/>
                     </div>
                     <div className='the_form_input_button'>
-                        <input type="submit" value="Submit" />
+                        <button type="submit">Submit</button>
                     </div>
                 </div>
             </form>
