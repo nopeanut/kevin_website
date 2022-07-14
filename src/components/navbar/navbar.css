@@ -35,9 +35,13 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: var(--color-text);
+    background-color: #27dbdb;
     justify-content: flex-end;
     border-radius: 1rem;
+}
+
+.the__navbar-links-resume:hover button {
+    background-color: red;
 }
 
 .the__navbar_links-name{

@@ -7,7 +7,7 @@ const TheForm = () => {
     <div className='the_form_main'>
         <h1>Get in touch</h1>
         <div class="the_form_input">
-            <Form method="POST" data-netlify="true">
+            <Form method="POST" netlify>
                 <div className='the_form_stuff'>
                     <div className='the_form_input_name'>
                         <label for="name">Name</label>
