@@ -7,7 +7,7 @@ const TheForm = () => {
     <div className='the_form_main'>
         <h1>Get in touch</h1>
         <div class="the_form_input">
-            <Form name = "contact1" method="POST" data-netlify="true">
+            <form name = "contact1" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact1"/>
                 <div className='the_form_stuff'>
                     <div className='the_form_input_name'>
@@ -26,7 +26,7 @@ const TheForm = () => {
                         <input type="submit" value="Submit" />
                     </div>
                 </div>
-            </Form>
+            </form>
         </div>
     </div>
   )
