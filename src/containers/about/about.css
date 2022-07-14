@@ -9,13 +9,16 @@
     color:var(--color-title);
     padding-bottom: 1rem;
     padding-top: 2rem;
-    text-decoration: underline;
+    border-bottom: 2px solid white;
+    max-width: fit-content;
+    line-height: 30px;
 }
 
 .the_main_education_p {
     font-size: 18px;
     max-width: 50%;
-    padding-bottom: 2rem
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     
 }
 

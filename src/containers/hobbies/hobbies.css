@@ -9,10 +9,12 @@
 }
 .the_main_hobbies_title {
     color: var(--color-title);
-    text-decoration: underline;
     padding-bottom: 1rem;
-    padding-left: 1rem;
     font-family: var(--font-family);
+    border-bottom: 2px solid white;
+    max-width: fit-content;
+    line-height: 30px;
+    margin-left: 1rem;
 }
 
 .the_main_hobbies_p {
@@ -25,6 +27,7 @@
 
 .the_main_hobbies_p1 {
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .the_main_hobbies_p2 {

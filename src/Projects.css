@@ -4,6 +4,13 @@
     display: flex;
     flex-direction: column;
 }
+.the_projects_main_title {
+    padding-top: 2rem;
+    border-bottom: 2px solid white;
+    max-width: fit-content;
+    line-height: 60px;
+    margin-left: 1rem;
+}
 
 .the_projects_project {
     display: flex;

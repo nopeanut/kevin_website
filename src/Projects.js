@@ -10,12 +10,11 @@ const Projects = () => {
   return (
     <div className='the_projects_main'>
       <Navbar/>
-      <h1>Projects</h1>
+      <h1 className='the_projects_main_title'>Projects</h1>
       <div className='the_projects_project'>
         <Project image={spaceShooters} title = "Space Shooters" github="https://github.com/nopeanut/Bullet-Hell-game" />
         <Project image={quizGame} title = "Quiz Game" github="https://github.com/nopeanut/Android-quiz-game" />
       </div>
-      <h1>!!!Work in progress!!!</h1>
       <Skills />
       <Footer />
     </div>
