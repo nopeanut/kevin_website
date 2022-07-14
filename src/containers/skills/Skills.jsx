@@ -7,6 +7,8 @@ import css3icon from '../../assets/css3.svg';
 import javascripticon from '../../assets/javascript.svg';
 import giticon from '../../assets/git.svg';
 import htmlicon from '../../assets/html.svg';
+import reacticon from '../../assets/react.svg';
+import nodejsicon from '../../assets/nodejs.svg';
 
 const Skills = () => {
   return (
@@ -45,6 +47,14 @@ const Skills = () => {
           <div className='the_skills_html'>
             <img src={htmlicon} style= {{height: 300, width: 200}} alt="HTML"/>
             <h1>HTML</h1>
+          </div>
+          <div className='the_skills_react'>
+            <img src={reacticon} style= {{height: 300, width: 200}} alt="react"/>
+            <h1>React</h1>
+          </div>
+          <div className='the_skills_nodejs'>
+            <img src={nodejsicon} style= {{height: 300, width: 200}} alt="nodejs"/>
+            <h1>Node.js</h1>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
 }
-.the_skills_python, .the_skills_java, .the_skills_c, .the_skills_css, .the_skills_javascript, .the_skills_git, .the_skills_html {
+.the_skills_python, .the_skills_java, .the_skills_c, .the_skills_css, .the_skills_javascript, .the_skills_git, .the_skills_html, .the_skills_react, .the_skills_nodejs {
     display: flex;
     flex-direction: column; 
     align-items: center;
