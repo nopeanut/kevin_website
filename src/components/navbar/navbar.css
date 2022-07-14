@@ -87,7 +87,7 @@
 }
 
 .stuff:hover {
-    color: red;
+    color: #27dbdb;
 }
 
 @media screen and (max-width: 325px) {

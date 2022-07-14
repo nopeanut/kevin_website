@@ -15,6 +15,9 @@
     padding-left: 1rem;
     padding-bottom: 2rem;
 }
+.the_footer_icons_stuff:hover {
+    color: #27dbdb;
+}
 
 .the_footer_icons_stuff:link, .the_footer_icons_stuff:visited {
     color: white;
