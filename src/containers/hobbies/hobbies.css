@@ -8,7 +8,7 @@
     flex-direction: row;
 }
 .the_main_hobbies_title {
-    color: aqua;
+    color: var(--color-title);
     text-decoration: underline;
     padding-bottom: 1rem;
     padding-left: 1rem;
@@ -46,8 +46,13 @@
 .the_main_hobbies_korean {
     margin-left: 14rem;
     margin-bottom: auto;
-    border: 5px solid aquamarine;
+    border: 5px solid transparent;
     display: flex;
+}
+
+.the_main_hobbies_korean:hover {
+    border: 5px solid #27dbdb;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 320px) {
@@ -66,7 +71,6 @@
     }
     .the_main_hobbies_korean img {
         max-width: 280px;
-        border: 5px solid aquamarine;
     }
     .the_main_hobbies {
         padding-top: 1rem;

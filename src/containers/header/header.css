@@ -34,12 +34,17 @@
 .the_main_photo {
     margin-right: 8rem;
     margin-top: 2rem;
-    border: 5px solid aquamarine;
+    border: 5px solid transparent;
     display: inline-flex;
 }
 .the_main_photo img{
     max-width: 550px;
     max-height: auto;
+}
+
+.the_main_photo:hover {
+    border: 5px solid #27dbdb;
+    transition: 0.5s;
 }
 @media screen and (max-width: 325px) {
     .the_main{
@@ -124,7 +129,6 @@
         margin-right: 0rem;
     }
     .the_main_photo {
-        border: 5px solid aquamarine;
         margin-left: none;
         margin-right: 13rem;
         margin-top: 2rem;
@@ -157,7 +161,6 @@
         margin-right: 0rem;
     }
     .the_main_photo {
-        border: 5px solid aquamarine;
         margin-left: none;
         margin-right: 0rem;
         margin-top: 2rem;

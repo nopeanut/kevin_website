@@ -36,7 +36,7 @@
 }
 
 .firstPa:link, .firstPa:visited, .turing:link, .turing:visited, .python:link, .python:visited, .java:link, .java:visited {
-    color: var(--color-title);
+    color: #27dbdb;
     text-decoration: none;
 }
 

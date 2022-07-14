@@ -9,17 +9,14 @@
     align-items: baseline;
 }
 
-.the_footer_icons {
-    display: flex;
-    flex-direction: row;
+.the_footer_icons_stuff {
     color: white;
     font-size: 30px;
     padding-left: 1rem;
     padding-bottom: 2rem;
-    
 }
 
-.the_footer_icons:link, .the_footer_icons:visited {
+.the_footer_icons_stuff:link, .the_footer_icons_stuff:visited {
     color: white;
     text-decoration: none;
 }
