@@ -11,17 +11,19 @@ const TheForm = () => {
                 <div className='the_form_stuff'>
                     <div className='the_form_input_name'>
                         <label for="name">Name</label>
-                        <input type = "text" placeholder = "enter your name" name = "name"/>
+                        <input type = "text" placeholder = "" name = "name"/>
                     </div>
                     <div className='the_form_input_email'>
                         <label for="email">Email</label>
-                        <input type = "text" placeholder = "enter your email" name = "email"/>
+                        <input type = "text" placeholder = "" name = "email"/>
                     </div>
                     <div className='the_form_input_message'>
                         <label for="message">Message</label>
-                        <textarea placeholder = "enter your message" name = "message"/>
+                        <textarea placeholder = "" name = "message"/>
                     </div>
-                    <button type = "submit">Submit</button>
+                    <div class = 'the_form_input_button'>
+                        <button type = "submit">Submit</button>
+                    </div>
                 </div>
             </form>
         </div>
