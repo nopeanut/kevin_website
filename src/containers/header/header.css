@@ -42,7 +42,7 @@
     max-height: auto;
 }
 
-.the_main_photo:hover {
+.the_main_photo img:hover {
     border: 5px solid #27dbdb;
     transition: 0.5s;
 }
@@ -68,13 +68,49 @@
         margin-right: 0rem;
     }
     .the_main_photo {
-        border: none;
-        margin-top: 2rem;
+        margin-top: 0rem;
+        margin-left: 0;
+        margin-right: 0rem;
+    }
+    .the_main_photo img{
+        max-width: 150px;
+        margin-right: 5rem;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 376px) {
+    .the_main{
+        flex-direction: column;
+    }
+    .the_main_title {
+        font-size: 15px;
+    }
+    .the_main_bio {
+        max-width: 320px;
+    }
+    .the_main_p_1 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 2;
+    }
+    .the_main_p_2 {
+        font-size: 14px;
+        padding-top: 2rem;
+        order: 1;
+        margin-right: 0rem;
+    }
+    .the_main_photo {
+        justify-content: flex-start;
+        margin-right: none;
+        margin-top: none;
+        display:inline-flex;
         
     }
     .the_main_photo img{
         max-width: 150px;
-        margin-left:-13rem;
+        
+        justify-content: center;
+        
     }
 }
 
@@ -164,10 +200,11 @@
         margin-left: none;
         margin-right: 0rem;
         margin-top: 2rem;
-        align-self: center;
     }
     .the_main_photo img{
         max-width: 200px;
         max-height: auto;
+        margin-left:-5rem;
+
     }
 }

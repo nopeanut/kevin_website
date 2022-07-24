@@ -47,13 +47,14 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
     .the_skills_list img{
-        max-width: 75px;
+        max-width: 70px;
         max-height: 150px;
     }
+    
     .the_skills_list h1{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 376px) {
