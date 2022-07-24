@@ -113,6 +113,24 @@
         margin-left: -1rem;
     }
 }
+@media screen and (max-width: 376px) {
+    .the__navbar-links-stuff {
+        max-width: 80%;
+    }
+    .the__navbar_links-logo {
+        margin-left: 10%;
+    }
+    .the__navbar_links-name{
+        font-size: 2px;
+    }
+    
+    .the__navbar-links-resume button{
+        padding: 12px 12px;
+    }
+    .the__navbar-links-resume {
+        margin-left: -1rem;
+    }
+}
 @media screen and (max-width: 1024px) {
     .the__navbar_containers { 
         padding-left: 40%;

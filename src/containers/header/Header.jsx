@@ -13,7 +13,7 @@ const Header = () => {
             <p>Indulging in the essence of what life brings, while pursuing hopes and dreams.</p>
           </div>
           <div className='the_main_p_2'>
-            <p>I am currently a third year computer engineering undergraduate attending Ryerson University. Currently focusing on self improvement to enhance my qualities.</p>
+            <p>I am currently a third-year computer engineering undergraduate attending Ryerson University. Currently focusing on self-improvement to enhance my qualities.</p>
           </div>
         </div>
         <div className='the_main_photo'>

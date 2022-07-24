@@ -2,6 +2,7 @@
     font-family: var(--font-family);
     color: var(--color-text);
     padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .the_skills_title {
@@ -54,4 +55,14 @@
     .the_skills_list h1{
         font-size: 14px;
     }
+}
+@media screen and (max-width: 376px) {
+    .the_skills_list img{
+        max-width: 73px;
+        max-height: 150px;
+    }
+    .the_skills_list h1{
+        font-size: 15px;
+    }
+
 }
