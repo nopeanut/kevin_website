@@ -19,41 +19,41 @@ const Skills = () => {
       <div className='the_skills_list'>
         <div className='the_skills_list1'>
           <div className='the_skills_python'>
-            <img src={pythonicon} style= {{height: 300, width: 200}} alt="Python"/>
+            <img src={pythonicon} style= {{height: 300, width: 150}} alt="Python"/>
             <h1>Python</h1>
           </div>
           <div className='the_skills_java'>
-            <img src={javaicon} style= {{height: 300, width: 200}} alt="Java"/>
+            <img src={javaicon} style= {{height: 300, width: 150}} alt="Java"/>
             <h1>Java</h1>
           </div>
           <div className='the_skills_c'>
-            <img src={cicon} style= {{height: 300, width: 200}} alt="C"/>
+            <img src={cicon} style= {{height: 300, width: 150}} alt="C"/>
             <h1>C</h1>
           </div>
           <div className='the_skills_css'>
-            <img src={css3icon} style= {{height: 300, width: 200}} alt="CSS"/>
+            <img src={css3icon} style= {{height: 300, width: 150}} alt="CSS"/>
             <h1>CSS3</h1>
           </div>
         </div>
         <div className='the_skills_list2'>
           <div className='the_skills_javascript'>
-            <img src={javascripticon} style= {{height: 300, width: 200}} alt="JavaScript"/>
+            <img src={javascripticon} style= {{height: 300, width: 150}} alt="JavaScript"/>
             <h1>JavaScript</h1>
           </div>
           <div className='the_skills_git'>
-            <img src={giticon} style= {{height: 300, width: 200}} alt="Git"/>
+            <img src={giticon} style= {{height: 300, width: 150}} alt="Git"/>
             <h1>Git</h1>
           </div>
           <div className='the_skills_html'>
-            <img src={htmlicon} style= {{height: 300, width: 200}} alt="HTML"/>
+            <img src={htmlicon} style= {{height: 300, width: 150}} alt="HTML"/>
             <h1>HTML</h1>
           </div>
           <div className='the_skills_react'>
-            <img src={reacticon} style= {{height: 300, width: 200}} alt="react"/>
+            <img src={reacticon} style= {{height: 300, width: 150}} alt="react"/>
             <h1>React</h1>
           </div>
           <div className='the_skills_nodejs'>
-            <img src={nodejsicon} style= {{height: 300, width: 200}} alt="nodejs"/>
+            <img src={nodejsicon} style= {{height: 300, width: 150}} alt="nodejs"/>
             <h1>Node.js</h1>
           </div>
         </div>
