@@ -15,7 +15,7 @@
 .the__navbar-links-stuff {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 85%;
     flex-grow: 3;
 }
 
