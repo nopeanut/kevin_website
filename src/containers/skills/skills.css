@@ -40,16 +40,16 @@
 
 @media screen and (max-width: 430px) {
     .the_skills_list img{
-        max-width: 100px;
+        max-width: 80px;
         max-height: 160px;
     }
     .the_skills_list h1{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 325px) {
     .the_skills_list img{
-        max-width: 70px;
+        max-width: 63px;
         max-height: 150px;
     }
     
