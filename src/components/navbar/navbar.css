@@ -15,7 +15,7 @@
 .the__navbar-links-stuff {
     display: flex;
     flex-direction: column;
-    max-width: auto;
+    max-width: 81%;
     flex-grow: 3;
 }
 
@@ -38,7 +38,6 @@
     background-color: #27dbdb;
     justify-content: flex-end;
     border-radius: 1rem;
-    padding-right: fit-content;
 }
 
 .the__navbar-links-resume:hover button {
