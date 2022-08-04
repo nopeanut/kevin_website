@@ -70,9 +70,46 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1450px) {
   .the_project_item1 {
-    width: 350px;
+    width: 450px;
+    height: 280px;
+  }
+  .the_project_item1_overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .the_project_item1 img {
+    width: 450px;
+    height: 280px;
+  }
+  
+  .the_project_item1_title {
+    position: absolute;
+    width: 450px;
+    top: 120px;
+    font-size: 22px;
+  }
+  
+  .the_project_item1:hover .the_project_item1_title {
+    top: 80px;
+  }
+  
+  .the_project_item1_button {
+    position: absolute;
+    width: 450px;
+    top: 190px;
+  }
+
+  .the_project_item1_button a {
+    width: 280px;
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .the_project_item1 {
+    width: 330px;
     height: 200px;
   }
   .the_project_item1_overlay {
@@ -80,25 +117,62 @@
     height: 100%;
   }
   .the_project_item1 img {
-    width: 350px;
+    width: 330px;
     height: 200px;
   }
   
   .the_project_item1_title {
     position: absolute;
-    width: 350px;
+    width: 330px;
     top: 80px;
-    font-size: 25px;
+    font-size: 22px;
   }
   
   .the_project_item1:hover .the_project_item1_title {
-    top: 50px;
+    top: 40px;
   }
   
   .the_project_item1_button {
     position: absolute;
-    width: 350px;
+    width: 330px;
     top: 130px;
+  }
+
+  .the_project_item1_button a {
+    width: 200px;
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .the_project_item1 {
+    width: 250px;
+    height: 150px;
+  }
+  .the_project_item1_overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .the_project_item1 img {
+    width: 250px;
+    height: 150px;
+  }
+  
+  .the_project_item1_title {
+    position: absolute;
+    width: 250px;
+    top: 60px;
+    font-size: 22px;
+  }
+  
+  .the_project_item1:hover .the_project_item1_title {
+    top: 30px;
+  }
+  
+  .the_project_item1_button {
+    position: absolute;
+    width: 250px;
+    top: 110px;
   }
 
   .the_project_item1_button a {
