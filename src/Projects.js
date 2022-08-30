@@ -21,8 +21,8 @@ const Projects = () => {
           <Project image={bookStore} title = "Bookstore App" github="https://github.com/nopeanut/BookStoreApp" />
         </div>
         <div className = 'the_projects_project_item2'>
-          <Project image={poBot} title = "AI Discord Bot" github="https://github.com/nopeanut/DiscordPoBot" />
-          <Project image={loading} title = "Loading..." github="https://github.com/nopeanut/Basic-Stamp-2-robot-assembly" />
+          <Project image={poBot} title = "Discord Bot" github="https://github.com/nopeanut/Encourage-Bot" />
+          <Project image={loading} title = "Arduino robot" github="https://github.com/nopeanut/Basic-Stamp-2-robot-assembly" />
         </div>
       </div>
       <Skills />
