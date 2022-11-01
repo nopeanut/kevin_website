@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='the__navbar-links-resume'>
-                <a href= 'https://drive.google.com/file/d/1W293sL0gW4_CxxavmK-cLY0VlFRgkNpJ/view?usp=sharing' target = "_black"><button type='button'>Resume</button></a>
+                <a href= 'https://drive.google.com/file/d/1ZOY3s8WdzJa-dXHkBpiKW7YdKOlKdoyf/view?usp=sharing' target = "_black"><button type='button'>Resume</button></a>
             </div>
         </div>
     </div>
