@@ -46,6 +46,27 @@
     border: 5px solid #27dbdb;
     transition: 0.5s;
 }
+
+.the_main_magic_box {
+    display: flex;
+    flex-direction: column;
+    background-color: #542C04;
+    order: 3;
+    max-width: fit-content;
+    
+    border-radius: 25px;
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.the_main_magic_box_title {
+    padding-top: 5px;
+}
+
+.the_main_magic_box_quote, .the_main_magic_box_author {
+    padding-top: 10px;
+}
 @media screen and (max-width: 325px) {
     .the_main{
         flex-direction: column;
