@@ -1,3 +1,4 @@
+@-ms-viewport{ width: device-width; }
 .the_projects_main {
     color: var(--color-text);
     font-family: var(--font-family);

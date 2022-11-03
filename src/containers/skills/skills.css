@@ -1,3 +1,4 @@
+@-ms-viewport{ width: device-width; }
 .the_skills_main {
     font-family: var(--font-family);
     color: var(--color-text);

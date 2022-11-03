@@ -1,3 +1,4 @@
+@-ms-viewport{ width: device-width; }
 .the_main_education {
     font-family: var(--font-family);
     color: var(--color-text);
@@ -19,6 +20,7 @@
     max-width: 50%;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    
     
 }
 

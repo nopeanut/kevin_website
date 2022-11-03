@@ -1,4 +1,5 @@
 
+@-ms-viewport{ width: device-width; }
 .the__navbar {
     /*position: sticky;
     top: 0;*/

@@ -1,3 +1,4 @@
+@-ms-viewport{ width: device-width; }
 .the_main{
     display: flex;
     flex-direction: row;
